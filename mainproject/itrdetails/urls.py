@@ -12,7 +12,7 @@ router.register(r'professional_income',professional_income_viewset,basename='pro
 router.register(r'import_tds',import_tds_viewset,basename='import_tds'),
 
 ######
-wpesimel = 'tanviiii'
+
 
 router.register(r'Income_From_Salary_Pension',Income_From_Salary_Pension_viewset,basename='Income_From_Salary_Pension'),
 router.register(r'Income_From_House_Property',Income_From_House_Property_viewset,basename='Income_From_House_Property'),
